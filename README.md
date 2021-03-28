@@ -16,7 +16,7 @@ The SDN architecture is:
 - Programmatically configured: SDN lets network managers configure, manage, secure, and optimize network resources very quickly via dynamic, automated SDN programs, which they can write themselves because the programs do not depend on proprietary software.
 - Open standards-based and vendor-neutral: When implemented through open standards, SDN simplifies network design and operation because instructions are provided by SDN controllers instead of multiple, vendor-specific devices and protocols.
 
-![sdn](sdn.webp)
+![sdn](/assets/sdn.webp)
 
 ## REST API
 
@@ -42,7 +42,7 @@ I've recently found [this awesome article](https://www.brianlinkletter.com/2016/
 
 After configuring the SDN and running the basic configurations, I needed an app to be running in top of ODL, and here I used the [OpenFlow Manager](https://github.com/CiscoDevNet/OpenDaylight-Openflow-App) (link refers to the OFM github repository) which is an application developed to run on top of ODL to visualize OpenFlow (OF) topologies, program OF paths and gather OF stats.
 
-![OFM](OFM.png)
+![OFM](/assets/OFM.png)
 
 ## Other Resources
 
